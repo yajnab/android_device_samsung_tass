@@ -20,7 +20,8 @@ PRODUCT_PACKAGES += \
 
 ## Ramdisk
 PRODUCT_COPY_FILES += \
-    device/samsung/tass/ramdisk/TASS.rle:root/TASS.rle
+    device/samsung/tass/ramdisk/TASS.rle:root/TASS.rle \
+    device/samsung/tass/ramdisk/init.msm7x27.rc:root/init.gt-s5570board.rc
 
 # Inherit products (Most specific first)
 # tass blobs > samsung common(device/vendor) > other blobs
